@@ -1,0 +1,78 @@
+.logo {
+    display: flex;
+}
+
+nav {
+    display: flex;
+
+}
+
+.encabezado a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 120%;
+}
+
+nav :hover {
+    transition: .3s;
+    border-bottom: 2px solid black;
+    color: blue;
+}
+
+.fondo {
+    background-image: url(Img/fondo.jpg);
+    width: 100%;
+    height: 40rem;
+    background-size: contain;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+}
+
+.parrafoCentrado {
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo {
+
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 50%;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: white;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    width: 20%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
